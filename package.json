@@ -21,7 +21,7 @@
     "postinstall": "bower install",
 
     "prestart": "yarn",
-    "start": "http-server ./app -a localhost -p 8000 -c-1",
+    "start": "http-server ./app -p 8000 -c-1",
 
     "pretest": "yarn",
     "test": "karma start karma.conf.js",
